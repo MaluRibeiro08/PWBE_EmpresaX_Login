@@ -1,0 +1,170 @@
+body
+{
+    padding-top: 30px;
+    background-color: #08090B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100%;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+    height: 100%;
+    width: 90%;
+    padding: 20px;
+    background-color: #1B1E22;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #3D3E41;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+table
+{
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse; /*junta as células*/
+}
+
+table tr:hover
+{
+    cursor: pointer;
+    background-color: #232527;
+}
+table td:hover
+{
+    cursor: pointer;
+    background-color: #232527;
+    border-collapse: collapse;
+}
+h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+h2
+{
+    font-size: 20px;
+}
+table th
+{
+    background-color:#08090B;
+}
+
+table td, th
+{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* .aprovado
+{
+    background-color: #00AA00;
+}
+
+.reprovado
+{
+    background-color: #AA0000;
+} */
+
+.conteiner-form-adicao-funcionario
+{
+    position: absolute;
+    width: 92vw;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #86838399;
+    flex-direction: column;
+}
+
+.conteiner-form-edicao-funcionario
+{
+    position: absolute;
+    width: 92vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #86838399;
+    flex-direction: column;
+}
+
+.conteiner-form-adicao-funcionario>form, .conteiner-form-edicao-funcionario>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #020202;
+    border-radius: 10px;
+}
+h3
+{
+    font-size: 30px;
+}
+
+.titulo-form
+{
+    font-weight: bold;
+}
+
+button
+{
+    font-family: sans-serif;
+    padding: 4px;
+    font-size: 20px;   
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+}
+button:hover
+{
+    box-shadow: 0.5px 0.5px 7px 3px rgba(141, 126, 126, 0.822);
+    transition: 0.5s;
+}
+input
+{
+    font-family: sans-serif;
+    padding:4px;
+    font-size: 20px;   
+    color: rgb(139, 132, 132);
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px white;
+}
+
+input::placeholder 
+{
+    color: #a7a7a7;
+}
+
+a
+{
+    color: white;
+}
+
+.logOut
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
